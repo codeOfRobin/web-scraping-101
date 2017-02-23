@@ -22,7 +22,7 @@ defmodule Scraper do
 
   end
 
-  def main do
+  def main(args) do
     hello("https://news.ycombinator.com")
   end
 end
